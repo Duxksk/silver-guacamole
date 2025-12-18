@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 굴림, Tahoma;
+  background: #e6e6e6;
+}
+
+#menu, #toolbar {
+  background: #d4d0c8;
+  padding: 4px;
+}
+
+#toolbar {
+  display: flex;
+  gap: 4px;
+}
+
+#address {
+  flex: 1;
+}
+
+#tabs {
+  background: #c0c0c0;
+  display: flex;
+}
+
+.tab {
+  padding: 4px 8px;
+  border: 1px solid #999;
+  cursor: pointer;
+  background: #e6e6e6;
+}
+
+.tab.active {
+  background: white;
+}
+
+.tab span {
+  margin-left: 6px;
+  color: red;
+  cursor: pointer;
+}
+
+#banner {
+  background: #fff3cd;
+  padding: 4px;
+  font-size: 12px;
+}
+
+iframe {
+  width: 100%;
+  height: calc(100vh - 130px);
+  border: none;
+}
