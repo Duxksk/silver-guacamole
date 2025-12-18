@@ -1,0 +1,27 @@
+{
+  "build": {
+    "devPath": "../src",
+    "distDir": "../src"
+  },
+  "package": {
+    "productName": "Retro Fox",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "Retro Fox",
+        "width": 1280,
+        "height": 800
+      }
+    ],
+    "bundle": {
+      "active": true,
+      "targets": ["msi"],
+      "identifier": "com.retrofox.browser"
+    },
+    "security": {
+      "csp": null
+    }
+  }
+}
