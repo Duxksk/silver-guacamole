@@ -1,7 +1,7 @@
 {
   "build": {
     "devPath": "../src",
-    "distDir": "../src"
+    "distDir": "."
   },
   "package": {
     "productName": "Retro Fox",
